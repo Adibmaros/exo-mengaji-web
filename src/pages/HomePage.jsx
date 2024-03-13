@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 
 function HomePage() {
   const [members, setMembers] = useState([
-    { id: 2, name: 'Bibil', juzRead: 'Juz 16 (75-105)', isChecked: false },
+    { id: 1, name: 'Bibil', juzRead: 'Juz 16 (75-105)', isChecked: false },
     { id: 2, name: 'Peen', juzRead: 'Juz 16 (106-135)', isChecked: true },
     { id: 3, name: 'Iffah', juzRead: 'Juz 17', isChecked: true },
     { id: 4, name: 'Nia', juzRead: 'Juz 18', isChecked: false },
@@ -45,10 +45,10 @@ function HomePage() {
           <Row style={{ paddingTop: '140px' }} className='header-box text-center d-flex justify-content-center'>
             <Col lg='6'>
               <h1 style={{ marginBottom: '50px', lineHeight: '40px' }} className="shadow-sm p-2">Agar <i>Pahala</i> tak terputus <br /> <span> Tadarus dulu</span> <br /> Satu juz😍</h1>
-              <p className="mb-4">“Barangsiapa yang berpuasa Ramadan atas dasar <i>iman </i>dan semata-mata <i>mengharap pahala</i> dari Allah SWT, maka akan diampuni dosanya yang telah lalu.” <br /> <br /> <span className='text-center pt-3'><strong >– HR. Bukhari</strong></span> </p>
+              <p className="mb-4">“Barangsiapa yang berpuasa Ramadan atas dasar <i>iman </i>dan semata-mata <i>mengharap pahala</i> dari Allah SWT, maka akan diampuni dosanya yang telah lalu.” <br /> <br /> <span className='text-center pt-3'><strong >– HR. Bukhari</strong></span></p>
               <div className='gap-4'>
-                <button className="btn btn-success btn-lg rounded-1 me-2 shadow">Gabung circle</button>
-                <button className="btn btn-outline-success btn-lg rounded-1 shadow">S&K</button>
+                <button className="btn btn-success btn-lg rounded-1 me-2 shadow">Donasi</button>
+                <button className="btn btn-outline-success btn-lg rounded-1 shadow">Hadits Harian</button>
               </div>
             </Col>
           </Row>

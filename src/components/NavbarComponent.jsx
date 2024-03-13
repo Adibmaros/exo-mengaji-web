@@ -28,12 +28,16 @@ const NavbarComponent = () => {
     <div className='fixed-top '>
       <Navbar bg='' expand="lg" className={changeColor ? 'color-active' : ''} >
       <Container>
-        <Navbar.Brand className='fs-3 fw-bold' href="#home">Exo Mengaji</Navbar.Brand>
+        <Navbar.Brand style={{fontFamily : 'helvetica'}} className='fs-3 fw-bold ' href="#home">
+          <img className='px-2 rounded-1' width={50} src="logoexo.jpeg" alt="" />Exo Mengaji</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className=''>
-          <Nav className="mx-auto text-center p-2">
-            <NavLink style={{ textDecoration: 'none' }} to={HomePage} className='text-dark nav-link' >Home</NavLink>
-          <button className='btn btn-success align-items-center'>Join With Us</button>
+          <Nav className="mx-auto p-2 ">
+            <NavLink style={{ textDecoration: 'none', fontFamily :'mono' }} to={HomePage} className='text-dark nav-link fw-bold' >Instagram</NavLink>
+            <NavLink style={{ textDecoration: 'none', fontFamily :'mono' }} to={HomePage} className='text-dark nav-link fw-bold' >SOP Komunitas</NavLink>
+            <NavLink style={{ textDecoration: 'none', fontFamily :'mono' }} to={HomePage} className='text-dark nav-link fw-bold' >Tentang komunitas</NavLink>
+           
+          <button className='btn btn-success align-items-center mx-2 mt-3'>Join With Us</button>
           </Nav>
         </Navbar.Collapse>
       </Container>

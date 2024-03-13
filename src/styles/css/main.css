@@ -3,84 +3,93 @@
 
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  header {
-    background: rgb(34,193,195);
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+header {
+  background: rgb(34,193,195);
 background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  }
-  
-
-  .navbar.color-active{
-    padding: 20px 0 20px 0;
-    border-bottom: #b3233151;
-    background-color: #34A779
-  }
-
-  .navbar {
-    position: fixed;
-    padding: 15px 0 15px 0;
-    width: 100%;
-    transition: all 0.2s ease;
-    z-index: 9999;
-  }
-
-  
+}
 
 
-  .homepage .header-box h1 {
-    font-size: 3.2 rem;
-    font-weight: 600;
-    color : var(--color-text)
-  }
+.navbar.color-active{
+  padding: 20px 0 20px 0;
+  border-bottom: #b3233151;
+  background-color: #34A779
+}
 
-  .homepage .header-box h1 span {
-    font-weight: 700;
-  }
-
-  .homapage .header-box p{
-    line-height: 2;
-    color: var(--color-text);
-    font-weight : 600
-  }
-
-  .homepage .header-box img{
-    width: 100%;
-  }
-  @media screen and (max-width:992px){
-    .homepage .header-box{
-      padding-top: 8rem;
-    }}
+.navbar {
+  position: fixed;
+  padding: 15px 0 15px 0;
+  width: 100%;
+  transition: all 0.2s ease;
+  z-index: 9999;
+}
 
 
-    /* styles.css */
+
+
+.homepage .header-box h1 {
+  font-size: 3.2 rem;
+  font-weight: 600;
+  color : var(--color-text)
+}
+
+.homepage .header-box h1 span {
+  font-weight: 700;
+}
+
+.homapage .header-box p{
+  line-height: 2;
+  color: var(--color-text);
+  font-weight : 600
+}
+
+.homepage .header-box img{
+  width: 100%;
+}
+@media screen and (max-width:992px){
+  .homepage .header-box{
+    padding-top: 8rem;
+  }}
+
+
+  /* styles.css */
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
+background-color: #f9f9f9;
 }
 
 .table-striped tbody tr:nth-of-type(even) {
-  background-color: #79BB6E;
+background-color: #79BB6E;
 }
 
 .table-striped tbody tr:hover {
-  background-color: #d4edda;
+background-color: #d4edda;
 }
 
 /* Optional: Styling for text alignment */
 .text-center {
-  text-align: center;
+text-align: center;
+}
+
+
+.admin-container{
+margin-top: 100px;
+}
+
+.admin-container{
+margin-top: 100px;
 }
