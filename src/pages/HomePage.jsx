@@ -5,12 +5,12 @@ import { useSpring, animated } from 'react-spring';
 function HomePage() {
   const [members, setMembers] = useState([
     { id: 2, name: 'Bibil', juzRead: 'Juz 16 (75-105)', isChecked: false },
-    { id: 2, name: 'Peen', juzRead: 'Juz 16 (106-135)', isChecked: false },
+    { id: 2, name: 'Peen', juzRead: 'Juz 16 (106-135)', isChecked: true },
     { id: 3, name: 'Iffah', juzRead: 'Juz 17', isChecked: true },
     { id: 4, name: 'Nia', juzRead: 'Juz 18', isChecked: false },
     { id: 5, name: 'Haniah', juzRead: 'Juz 19', isChecked: false },
     { id: 6, name: 'Wati', juzRead: 'Juz 20', isChecked: true },
-    { id: 7, name: 'Fathia', juzRead: 'Juz 21', isChecked: true },
+    { id: 7, name: 'Fathia', juzRead: 'Juz 21', isChecked: false },
     { id: 8, name: 'Fatih', juzRead: 'Juz 22', isChecked: false },
     { id: 9, name: 'Hadi', juzRead: 'Juz 23', isChecked: false },
     { id: 10, name: 'Adib', juzRead: 'Juz 24', isChecked: true },
