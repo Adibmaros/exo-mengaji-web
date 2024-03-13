@@ -4,22 +4,22 @@ import { useSpring, animated } from 'react-spring';
 
 function HomePage() {
   const [members, setMembers] = useState([
-    { id: 1, name: 'Bibil', juzRead: 'Juz 16 (75-105)', isChecked: false },
-    { id: 2, name: 'Peen', juzRead: 'Juz 16 (106-135)', isChecked: true },
-    { id: 3, name: 'Iffah', juzRead: 'Juz 17', isChecked: true },
-    { id: 4, name: 'Nia', juzRead: 'Juz 18', isChecked: false },
-    { id: 5, name: 'Haniah', juzRead: 'Juz 19', isChecked: false },
-    { id: 6, name: 'Wati', juzRead: 'Juz 20', isChecked: true },
-    { id: 7, name: 'Fathia', juzRead: 'Juz 21', isChecked: false },
-    { id: 8, name: 'Fatih', juzRead: 'Juz 22', isChecked: false },
-    { id: 9, name: 'Hadi', juzRead: 'Juz 23', isChecked: false },
-    { id: 10, name: 'Adib', juzRead: 'Juz 24', isChecked: true },
-    { id: 11, name: 'Mukhlisin', juzRead: 'Juz 25', isChecked: false },
-    { id: 12, name: 'Razan', juzRead: 'Juz 26', isChecked: false },
-    { id: 13, name: 'Bintang', juzRead: 'Juz 27', isChecked: true },
-    { id: 14, name: 'Alif', juzRead: 'Juz 28', isChecked: false },
-    { id: 15, name: 'Ali', juzRead: 'Juz 29', isChecked: false },
-    { id: 16, name: 'Syauqi', juzRead: 'Juz 30', isChecked: true }
+    { id: 1, name: 'Bibil', juzRead: 'Juz 2', isChecked: false },
+    { id: 2, name: 'Peen', juzRead: 'Juz 2', isChecked: false },
+    { id: 3, name: 'Iffah', juzRead: 'Juz 3', isChecked: false },
+    { id: 4, name: 'Nia', juzRead: 'Juz 4', isChecked: false },
+    { id: 5, name: 'Haniyah', juzRead: 'Juz 5', isChecked: false },
+    { id: 6, name: 'Wati', juzRead: 'Juz 6', isChecked: false },
+    { id: 7, name: 'Fathia', juzRead: 'Juz 7', isChecked: false },
+    { id: 8, name: 'Fatih', juzRead: 'Juz 8', isChecked: false },
+    { id: 9, name: 'Hadi', juzRead: 'Juz 9', isChecked: false },
+    { id: 10, name: 'Adib', juzRead: 'Juz 10', isChecked: false },
+    { id: 11, name: 'Mukhlisin', juzRead: 'Juz 11', isChecked: false },
+    { id: 12, name: 'Razan', juzRead: 'Juz 12', isChecked: false },
+    { id: 13, name: 'Bintang', juzRead: 'Juz 13', isChecked: false },
+    { id: 14, name: 'Alif', juzRead: 'Juz 14', isChecked: false },
+    { id: 15, name: 'Ali', juzRead: 'Juz 15', isChecked: false },
+    { id: 16, name: 'Syauqi', juzRead: 'Juz 1', isChecked: false }
 ]
 );
 
